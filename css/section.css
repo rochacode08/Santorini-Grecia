@@ -1,0 +1,32 @@
+section {
+  background-color: var(--light-gray);
+  margin-top: 200px;
+}
+
+#textos {
+
+  max-width: 600px;
+  
+  h1 {
+    padding-top: 95px;
+  }
+
+  p:nth-child(2) {
+   padding: 5px 0px 46px 0px;
+  }
+  
+}
+
+#sobre {
+  justify-content: space-around;
+}
+
+#sobre > figure {
+  padding-block: 60px;
+}
+
+#sobre > figure img {
+  max-height: 400px;
+  width: 700px;
+}
+
