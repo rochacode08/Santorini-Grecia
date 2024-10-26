@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --deep-blue: #1A4B8C;
+  --light-blue: #6CACE4;
+  --white: #FFFFFF;
+  --light-gray: #F0F0F0;
+  --susnet-yellow: #FFD700;
+  --black: #000000;
+
+  --titles-subtitles: "Roboto Slab", serif;
+  --text: "Lato", sans-serif;
+  --h1: bold 48px/120% var(--titles-subtitles) ;
+  --h2: bold 36px/130% var(--titles-subtitles);
+  --h3: bold 24px/140% var(--titles-subtitles);
+  --paragraph: 400 20px/150% var(--text);
+}
+
+body {
+  font: var(--text);
+  overflow-x: hidden;
+}
+
+h1 {
+  font: var(--h1);
+}
+
+h2 {
+  font: var(--h2);
+}
+
+h3 {
+  font: var(--h3);
+}
+
+p {
+  font: var(--paragraph);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border-radius: 10px;
+}
+
