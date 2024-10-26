@@ -20,6 +20,10 @@
   --paragraph: 400 20px/150% var(--text);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: var(--text);
   overflow-x: hidden;
