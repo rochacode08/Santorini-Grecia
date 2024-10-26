@@ -1,0 +1,9 @@
+footer {
+  background-color: var(--deep-blue);
+}
+
+footer > p {
+  padding: 61px 290px ;
+  text-align: center;
+  font-weight: bold;
+}
