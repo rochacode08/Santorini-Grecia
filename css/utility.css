@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+.white {
+  color: var(--white);
+}
+
+.container {
+  margin-inline: 106px;
+}
+
+.grid {
+  display: grid;
+}
