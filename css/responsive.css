@@ -1,0 +1,160 @@
+/* ===== TABLETS (até 1024px) ===== */
+@media (max-width: 1024px) {
+
+  /* Reduz margens laterais do container */
+  .container {
+    margin-inline: 60px;
+  }
+
+  /* Reduz o tamanho das fontes globalmente via variáveis */
+  :root {
+    --h1: bold 40px/120% var(--titles-subtitles);
+    --h2: bold 32px/130% var(--titles-subtitles);
+    --h3: bold 22px/140% var(--titles-subtitles);
+    --paragraph: 400 18px/150% var(--text);
+  }
+
+  /* Reduz os espaços entre os cards */
+  .grid {
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  /* Ajusta a imagem da seção "Sobre" */
+  #sobre > figure img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  /* Reduz o espaço do topo da section */
+  section {
+    margin-top: 120px;
+  }
+
+  /* Ajusta padding do footer */
+  footer > p {
+    padding: 50px 60px;
+  }
+}
+
+
+/* ===== TABLETS MENORES (até 768px) ===== */
+@media (max-width: 768px) {
+
+  .container {
+    margin-inline: 30px;
+  }
+
+  /* Fontes ainda menores */
+  :root {
+    --h1: bold 32px/120% var(--titles-subtitles);
+    --h2: bold 28px/130% var(--titles-subtitles);
+    --h3: bold 20px/140% var(--titles-subtitles);
+    --paragraph: 400 16px/150% var(--text);
+  }
+
+  /* Header: ajustes na imagem de fundo */
+  header {
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  /* Menu de navegação mais compacto */
+  ul {
+    padding: 15px 30px;
+    gap: 20px;
+  }
+
+  /* Grid vira UMA COLUNA ÚNICA */
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  /* Seção "Sobre" empilha o texto e a imagem */
+  #sobre {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  #textos {
+    max-width: 100%;
+  }
+
+  #textos h1 {
+    padding-top: 60px;
+  }
+
+  #sobre > figure {
+    padding-block: 0 60px;
+  }
+
+  #sobre > figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container > h1 {
+    padding-block: 50px;
+  }
+
+  section {
+    margin-top: 80px;
+  }
+}
+
+
+/* ===== MOBILE (até 480px) ===== */
+@media (max-width: 480px) {
+
+  .container {
+    margin-inline: 16px;
+  }
+
+  /* Tipografia reduzida para mobile */
+  :root {
+    --h1: bold 26px/120% var(--titles-subtitles);
+    --h2: bold 22px/130% var(--titles-subtitles);
+    --h3: bold 18px/140% var(--titles-subtitles);
+    --paragraph: 400 14px/150% var(--text);
+  }
+
+  /* Navegação ajustada */
+  nav {
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  ul {
+    padding: 12px 20px;
+    gap: 12px;
+  }
+
+  #info {
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  #info > p br {
+    display: none; /* Remove a quebra forçada no mobile */
+  }
+
+  /* Botão "Reserve sua viagem" ajustado */
+  a > p {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+
+  /* Footer com texto menor */
+  footer > p {
+    padding: 30px 20px;
+    font-size: 14px;
+  }
+}
