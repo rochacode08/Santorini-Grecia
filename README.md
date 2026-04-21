@@ -1,6 +1,6 @@
 # 🏛️ Encantos de Santorini
 
-**Landing page turística** dedicada a apresentar as belezas e encantos da ilha grega de **Santorini**. O projeto explora a arquitetura única, os pôr do sol famosos, os vinhos vulcânicos e as praias exóticas dessa ilha paradisíaca do Mar Egeu, com um visual clean e profissional.
+**Landing page turística** dedicada a apresentar as belezas e encantos da ilha grega de **Santorini**. O projeto explora a arquitetura única, os pôr do sol famosos, os vinhos vulcânicos e as praias exóticas dessa ilha paradisíaca do Mar Egeu, com um visual clean.
 
 ## 📸 Preview
 
